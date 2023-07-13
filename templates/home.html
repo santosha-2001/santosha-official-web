@@ -14,11 +14,19 @@
     </style>
   </head>
   <body>
+    {% include 'nav.html'%}
     <div class='container'>
    <h1 class='text-center mt-4 mb-4'>Job Application</h1>
     <img class='img-fluid'id='banner' src="static/job.jpg" >
     <h2 class='text-center mt-4 mb-4'>About Job</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamcorper eget nulla facilisi etiam dignissim. Amet massa vitae tortor condimentum lacinia quis vel eros donec. Elementum eu facilisis sed odio morbi. Morbi non arcu risus quis. Volutpat est velit egestas dui id ornare. Urna id volutpat lacus laoreet non curabitur. Sed adipiscing diam donec adipiscing tristique risus nec. Lacus vel facilisis volutpat est velit. Ut lectus arcu bibendum at varius vel. Velit dignissim sodales ut eu sem integer vitae. Tristique senectus et netus et.</p>
+      <div class='row'>
+        <div class='col-6'>
+    <p class='lead'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamcorper eget nulla facilisi etiam dignissim. Amet massa vitae tortor condimentum lacinia quis vel eros donec. Elementum eu facilisis sed odio morbi. Morbi non arcu risus quis. Volutpat est velit egestas dui id ornare. Urna id volutpat lacus laoreet non curabitur. Sed adipiscing diam donec adipiscing tristique risus nec. Lacus vel facilisis volutpat est velit. Ut lectus arcu bibendum at varius vel. Velit dignissim sodales ut eu sem integer vitae. Tristique senectus et netus et.</p>
+        </div>
+      <div class='col-6'>
+        <img src='static/discussion.jpg' style=height:300px>
+      </div>
+      </div>
     <h2 class='text-center mt-4 mb-4'>job Openings </h2>
     <div>
       <div>
@@ -34,5 +42,6 @@
       
     </div>
     </div>
+    {% include 'footer.html' %}
   </body>
 </html>
