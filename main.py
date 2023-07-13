@@ -11,7 +11,7 @@ JOBS=[
     'id':'2',
     'title':'Data Scientist',
      'location':'Chennai',
-'salary':1100000
+'salary':2500000
 
   },
   {
